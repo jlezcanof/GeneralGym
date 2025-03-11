@@ -36,6 +36,9 @@ struct ContentView: View {
                     Button(action: addItem) {
                         Label("Please, add Item: slave", systemImage: "plus")
                     }
+                    Image(systemName: "globel")
+                        .imageScale(.medium)
+                        .foregroundStyle(.tint)
                 }
             }
             Text("Select an item")
